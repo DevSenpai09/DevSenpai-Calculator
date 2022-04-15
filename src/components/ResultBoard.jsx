@@ -13,7 +13,7 @@ const resultBoard = ({ input, setInput, result, modes, modeIteration }) => {
         <input
           id="input"
           type="text"
-          className="w-full rounded-md bg-transparent text-right text-[35px] lowercase tracking-widest text-[#e4dfec]"
+          className="w-full rounded-md bg-transparent text-right text-[35px] lowercase tracking-widest text-[dimgrey]"
           value={input}
           onChange={(e) => {
             setInput(
@@ -24,7 +24,9 @@ const resultBoard = ({ input, setInput, result, modes, modeIteration }) => {
           }}
         />
         <div className="flex w-full items-center justify-end rounded-md bg-transparent p-1">
-          <p className="text-right text-[25px] text-[white]">{result}</p>
+          <p className="text-right text-[25px] text-[#000000] opacity-30">
+            {result}
+          </p>
         </div>
       </label>
     </div>

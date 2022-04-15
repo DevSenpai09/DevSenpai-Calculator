@@ -36,7 +36,7 @@ const numbersAndBasicSymbols = ({
               onClick={() => {
                 showInput(element);
               }}
-              className="flex w-full items-center justify-center rounded-md bg-[#534369] text-xl text-[#e4dfec] shadow-[0_0_1px_1px_rgba(0,0,0,0.5)]"
+              className="flex w-full items-center justify-center rounded-md bg-[#534369] text-xl text-[#e4dfec]"
             >
               {element}
             </button>

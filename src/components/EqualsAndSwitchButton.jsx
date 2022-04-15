@@ -26,7 +26,7 @@ const equalsAndSwitchButton = ({
           equalsTo();
         }}
         className={
-          " flex h-full w-full items-center justify-center rounded-md bg-[#e9967a] text-3xl text-[#e4dfec]"
+          " flex h-full w-full items-center justify-center rounded-md bg-[#ea7d7d] text-3xl text-[#e4dfec]"
         }
       >
         =

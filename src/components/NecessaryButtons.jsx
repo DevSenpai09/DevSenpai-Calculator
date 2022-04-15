@@ -33,7 +33,7 @@ const necessaryButtons = ({ changeMode, backSpace, clearAll }) => {
         <button
           key={button.id}
           onClick={button.function}
-          className={"text-md w-full rounded-md bg-[#e9967a] text-[white] "}
+          className={"text-md w-full rounded-md bg-[#ea7d7d] text-[white] "}
         >
           {button.name}
         </button>
